@@ -1,0 +1,3 @@
+﻿  BitStreamConverter.cpp
+BitStreamConverter.cpp(20): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+  BItStreamParsingTask.vcxproj -> C:\Users\gazik\Documents\GitHub\BItStreamParsingTask\x64\Debug\BItStreamParsingTask.exe

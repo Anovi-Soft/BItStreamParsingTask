@@ -51,17 +51,9 @@ uchar BitStreamConverter::invert(uchar byte)
 	return res;
 }
 
-BitStreamConverter::BitStreamConverter()
+void BitStreamConverter::out(bitset<300 * 8 / 2> btst, int count)
 {
+	for (auto i = 0; i < count; i++)
+		cout << btst[i];
 }
 
-BitStreamConverter::~BitStreamConverter()
-{
-}
-
-void BitStreamConverter::test()
-{
-	string tmp = "FF5FA5FCFC80DD57E5F8FDFF";
-	auto r = convert_to_bitset(tmp);
-	return;
-}
