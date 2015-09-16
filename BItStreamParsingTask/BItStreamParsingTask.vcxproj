@@ -74,10 +74,14 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -118,13 +122,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="BitStreamConverter.h" />
+    <ClInclude Include="BaseHex2Bitset.h" />
+    <ClInclude Include="BitParser.h" />
     <ClInclude Include="DataStreamException.h" />
+    <ClInclude Include="ExtremePointsBitParser.h" />
+    <ClInclude Include="Hex2Bitset.h" />
+    <ClInclude Include="MapHex2Bitset.h" />
+    <ClInclude Include="PObject.h" />
+    <ClInclude Include="PType1.h" />
+    <ClInclude Include="PType2.h" />
+    <ClInclude Include="PType3.h" />
+    <ClInclude Include="PType4.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BitStreamConverter.cpp" />
+    <ClCompile Include="BaseHex2Bitset.cpp" />
+    <ClCompile Include="BitParser.cpp" />
     <ClCompile Include="DataStreamException.cpp" />
+    <ClCompile Include="ExtremePointsBitParser.cpp" />
+    <ClCompile Include="Hex2Bitset.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MapHex2Bitset.cpp" />
+    <ClCompile Include="PObject.cpp" />
+    <ClCompile Include="PType1.cpp" />
+    <ClCompile Include="PType2.cpp" />
+    <ClCompile Include="PType3.cpp" />
+    <ClCompile Include="PType4.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

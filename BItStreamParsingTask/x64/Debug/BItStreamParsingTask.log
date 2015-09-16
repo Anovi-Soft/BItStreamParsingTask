@@ -1,3 +1,268 @@
-﻿  BitStreamConverter.cpp
-BitStreamConverter.cpp(20): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-  BItStreamParsingTask.vcxproj -> C:\Users\gazik\Documents\GitHub\BItStreamParsingTask\x64\Debug\BItStreamParsingTask.exe
+﻿Build started 9/16/2015 12:12:47 PM.
+     1>Project "C:\Users\Andrew\Documents\GitHub\BItStreamParsingTask\BItStreamParsingTask\BItStreamParsingTask.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt BaseHex2Bitset.cpp Main.cpp MapHex2Bitset.cpp
+         BaseHex2Bitset.cpp
+     1>BaseHex2Bitset.cpp(14): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+         Compiling...
+         MapHex2Bitset.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(746): warning C4351: new behavior: elements of array 'std::pair<const _Kty,_Ty>::second' will be default initialized
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(762) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>,0x00,>(_Tuple1 &,_Tuple2 &,std::_Arg_idx<0x00>,std::_Arg_idx<>)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+         ,            _Tuple1=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>
+         ,            _Tuple2=std::tuple<>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(762) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>,0x00,>(_Tuple1 &,_Tuple2 &,std::_Arg_idx<0x00>,std::_Arg_idx<>)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+         ,            _Tuple1=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>
+         ,            _Tuple2=std::tuple<>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(600) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>&&,>(std::piecewise_construct_t,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(600) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>&&,>(std::piecewise_construct_t,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,const std::piecewise_construct_t&,_Ty,std::tuple<>>(_Objty *,const std::piecewise_construct_t &,_Ty &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Objty=std::pair<const std::string,bool [8]>
+         ,            _Ty=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,const std::piecewise_construct_t&,_Ty,std::tuple<>>(_Objty *,const std::piecewise_construct_t &,_Ty &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Objty=std::pair<const std::string,bool [8]>
+         ,            _Ty=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(std::allocator<_Other> &,_Objty *,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,bool [8]>,void *>>
+         ,            _Ty=std::pair<const std::string,bool [8]>
+         ,            _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Objty=std::pair<const std::string,bool [8]>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(std::allocator<_Other> &,_Objty *,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,bool [8]>,void *>>
+         ,            _Ty=std::pair<const std::string,bool [8]>
+         ,            _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Objty=std::pair<const std::string,bool [8]>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(933) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(_Ty *,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Ty=std::pair<const std::string,bool [8]>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(933) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(_Ty *,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Ty=std::pair<const std::string,bool [8]>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(1184) : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_buy<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Buynode<const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(1184) : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_buy<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Buynode<const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(181) : see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace_hint<const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+         ,            _Pr=std::less<std::string>
+         ,            _Alloc=std::allocator<std::pair<const std::string,bool [8]>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(181) : see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace_hint<const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+         ,            _Pr=std::less<std::string>
+         ,            _Alloc=std::allocator<std::pair<const std::string,bool [8]>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(173) : while compiling class template member function 'bool (&std::map<std::string,bool [8],std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::operator [](std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&))[8]'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 c:\users\andrew\documents\github\bitstreamparsingtask\bitstreamparsingtask\MapHex2Bitset.h(21) : see reference to function template instantiation 'bool (&std::map<std::string,bool [8],std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::operator [](std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&))[8]' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 c:\users\andrew\documents\github\bitstreamparsingtask\bitstreamparsingtask\MapHex2Bitset.h(14) : see reference to class template instantiation 'std::map<std::string,bool [8],std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+         Main.cpp
+     1>Main.cpp(22): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(746): warning C4351: new behavior: elements of array 'std::pair<const _Kty,_Ty>::second' will be default initialized
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(762) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>,0x00,>(_Tuple1 &,_Tuple2 &,std::_Arg_idx<0x00>,std::_Arg_idx<>)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+         ,            _Tuple1=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>
+         ,            _Tuple2=std::tuple<>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple(762) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>,0x00,>(_Tuple1 &,_Tuple2 &,std::_Arg_idx<0x00>,std::_Arg_idx<>)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+         ,            _Tuple1=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>
+         ,            _Tuple2=std::tuple<>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(600) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>&&,>(std::piecewise_construct_t,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(600) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>&&,>(std::piecewise_construct_t,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,const std::piecewise_construct_t&,_Ty,std::tuple<>>(_Objty *,const std::piecewise_construct_t &,_Ty &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Objty=std::pair<const std::string,bool [8]>
+         ,            _Ty=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,const std::piecewise_construct_t&,_Ty,std::tuple<>>(_Objty *,const std::piecewise_construct_t &,_Ty &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Objty=std::pair<const std::string,bool [8]>
+         ,            _Ty=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(std::allocator<_Other> &,_Objty *,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,bool [8]>,void *>>
+         ,            _Ty=std::pair<const std::string,bool [8]>
+         ,            _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Objty=std::pair<const std::string,bool [8]>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(std::allocator<_Other> &,_Objty *,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,bool [8]>,void *>>
+         ,            _Ty=std::pair<const std::string,bool [8]>
+         ,            _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Objty=std::pair<const std::string,bool [8]>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(933) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(_Ty *,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Ty=std::pair<const std::string,bool [8]>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(933) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(_Ty *,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const std::string,bool [8]>,void *>
+         ,            _Ty=std::pair<const std::string,bool [8]>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(1184) : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_buy<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Buynode<const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree(1184) : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_buy<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Buynode<const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(181) : see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace_hint<const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+         ,            _Pr=std::less<std::string>
+         ,            _Alloc=std::allocator<std::pair<const std::string,bool [8]>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(181) : see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace_hint<const std::piecewise_construct_t&,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&>,std::tuple<>>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,const std::piecewise_construct_t &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&> &&,std::tuple<> &&)' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+         ,            _Pr=std::less<std::string>
+         ,            _Alloc=std::allocator<std::pair<const std::string,bool [8]>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map(173) : while compiling class template member function 'bool (&std::map<std::string,bool [8],std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::operator [](std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&))[8]'
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 c:\users\andrew\documents\github\bitstreamparsingtask\bitstreamparsingtask\MapHex2Bitset.h(21) : see reference to function template instantiation 'bool (&std::map<std::string,bool [8],std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::operator [](std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&))[8]' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+                 c:\users\andrew\documents\github\bitstreamparsingtask\bitstreamparsingtask\MapHex2Bitset.h(14) : see reference to class template instantiation 'std::map<std::string,bool [8],std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+                 with
+                 [
+                     _Kty=std::string
+         ,            _Ty=bool [8]
+                 ]
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andrew\Documents\GitHub\BItStreamParsingTask\x64\Debug\BItStreamParsingTask.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Andrew\Documents\GitHub\BItStreamParsingTask\x64\Debug\BItStreamParsingTask.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andrew\Documents\GitHub\BItStreamParsingTask\x64\Debug\BItStreamParsingTask.lib" /MACHINE:X64 x64\Debug\BaseHex2Bitset.obj
+         x64\Debug\DataStreamException.obj
+         x64\Debug\Hex2Bitset.obj
+         x64\Debug\Main.obj
+         x64\Debug\MapHex2Bitset.obj
+         BItStreamParsingTask.vcxproj -> C:\Users\Andrew\Documents\GitHub\BItStreamParsingTask\x64\Debug\BItStreamParsingTask.exe
+     1>Done Building Project "C:\Users\Andrew\Documents\GitHub\BItStreamParsingTask\BItStreamParsingTask\BItStreamParsingTask.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.48
