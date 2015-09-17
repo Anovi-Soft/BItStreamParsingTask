@@ -13,39 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\PObjects">
+      <UniqueIdentifier>{210c2ad8-e181-48d1-b8e3-ae1e45dcbe80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hex2Bitset">
+      <UniqueIdentifier>{b1adff58-9e47-4c82-97f2-18ab6fc8fb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BitParser">
+      <UniqueIdentifier>{2b4b9c4c-d4f6-4fb0-befd-f58007a61a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hex2Bitset">
+      <UniqueIdentifier>{3934617c-8fc6-42ef-bb8f-2fa50f8cc865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PObjects">
+      <UniqueIdentifier>{4d12ca03-3b2e-471b-b426-fbcb98273cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BitParser">
+      <UniqueIdentifier>{83c7c3fe-df6c-4fda-aafe-d5002965781d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStreamException.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Hex2Bitset.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BaseHex2Bitset.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MapHex2Bitset.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BitParser.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="PObject.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\PObjects</Filter>
     </ClInclude>
     <ClInclude Include="PType1.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\PObjects</Filter>
     </ClInclude>
     <ClInclude Include="PType2.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\PObjects</Filter>
     </ClInclude>
     <ClInclude Include="PType3.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\PObjects</Filter>
     </ClInclude>
     <ClInclude Include="PType4.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\PObjects</Filter>
     </ClInclude>
-    <ClInclude Include="ExtremePointsBitParser.h">
+    <ClInclude Include="MapHex2Bitset.h">
+      <Filter>Header Files\Hex2Bitset</Filter>
+    </ClInclude>
+    <ClInclude Include="Hex2Bitset.h">
+      <Filter>Header Files\Hex2Bitset</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseHex2Bitset.h">
+      <Filter>Header Files\Hex2Bitset</Filter>
+    </ClInclude>
+    <ClInclude Include="BitParser.h">
+      <Filter>Header Files\BitParser</Filter>
+    </ClInclude>
+    <ClInclude Include="UNUSEDExtremePointsBitParser.h">
+      <Filter>Header Files\BitParser</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBitParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -57,33 +78,36 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Hex2Bitset.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BaseHex2Bitset.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Hex2Bitset</Filter>
     </ClCompile>
     <ClCompile Include="MapHex2Bitset.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Hex2Bitset</Filter>
     </ClCompile>
-    <ClCompile Include="BitParser.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="BaseHex2Bitset.cpp">
+      <Filter>Source Files\Hex2Bitset</Filter>
     </ClCompile>
     <ClCompile Include="PObject.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\PObjects</Filter>
     </ClCompile>
     <ClCompile Include="PType1.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\PObjects</Filter>
     </ClCompile>
     <ClCompile Include="PType2.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\PObjects</Filter>
     </ClCompile>
     <ClCompile Include="PType3.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\PObjects</Filter>
     </ClCompile>
     <ClCompile Include="PType4.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\PObjects</Filter>
     </ClCompile>
-    <ClCompile Include="ExtremePointsBitParser.cpp">
+    <ClCompile Include="BitParser.cpp">
+      <Filter>Source Files\BitParser</Filter>
+    </ClCompile>
+    <ClCompile Include="UNUSEDExtremePointsBitParser.cpp">
+      <Filter>Source Files\BitParser</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBitParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

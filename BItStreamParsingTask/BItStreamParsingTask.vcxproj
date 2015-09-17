@@ -122,10 +122,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BaseBitParser.h" />
     <ClInclude Include="BaseHex2Bitset.h" />
     <ClInclude Include="BitParser.h" />
     <ClInclude Include="DataStreamException.h" />
-    <ClInclude Include="ExtremePointsBitParser.h" />
+    <ClInclude Include="UNUSEDExtremePointsBitParser.h" />
     <ClInclude Include="Hex2Bitset.h" />
     <ClInclude Include="MapHex2Bitset.h" />
     <ClInclude Include="PObject.h" />
@@ -135,10 +136,11 @@
     <ClInclude Include="PType4.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BaseBitParser.cpp" />
     <ClCompile Include="BaseHex2Bitset.cpp" />
     <ClCompile Include="BitParser.cpp" />
     <ClCompile Include="DataStreamException.cpp" />
-    <ClCompile Include="ExtremePointsBitParser.cpp" />
+    <ClCompile Include="UNUSEDExtremePointsBitParser.cpp" />
     <ClCompile Include="Hex2Bitset.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MapHex2Bitset.cpp" />

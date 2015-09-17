@@ -6,15 +6,13 @@
 #include "BaseHex2Bitset.h"
 #include "MapHex2Bitset.h"
 #include <map>
-#include "ExtremePointsBitParser.h"
 using namespace std;
 
 void main()
 {
 	string s = "FF5FA5FCFC80DD57E5F8FDFF";
 	auto a = MapHex2Bitset().convert(s);
-	ExtremePointsBitParser().Parse(a);
-
+	MapHex2Bitset().tmp();
 }
 
 

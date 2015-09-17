@@ -1,4 +1,6 @@
 #include "MapHex2Bitset.h"
+#include <fstream>
+#include <string>
 
 
 vector<bool> MapHex2Bitset::convert(string& line)
@@ -12,6 +14,7 @@ vector<bool> MapHex2Bitset::convert(string& line)
 	}
 	return result;
 }
+
 
 MapHex2Bitset::MapHex2Bitset()
 {
